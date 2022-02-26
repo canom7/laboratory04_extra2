@@ -1,0 +1,31 @@
+body{
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 247, 217);
+}
+
+#title{
+    margin-left: 30px;
+}
+
+#container{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#button-calculate{
+    font-size: 15px;
+    width: 90px;
+    height: 35px;
+    border: transparent;
+    border-radius: 3px;
+    background-color: rgb(150, 188, 236);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#result{
+    padding: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header id="title">
+        <h1>HOTEL BOOKING</h1>
+    </header>
+    <main>
+        <div id="container">
+            <label for="room-type">Room Type</label>
+            <select id="room-type">
+                <option value="Standard"selected>Standard</option>
+                <option value="Junior Suite">Junior Suite</option>
+                <option value="Suite">Suite</option>
+            </select>
+        </div>
+        <div id="container">
+            <label for="access-spa">Access to SPA</label>
+            <input type="checkbox" id="access-spa" checked>
+        </div>
+        <div id="container">
+            <label for="room-occupancy">Room occupancy</label>
+            <select id="room-occupancy">
+                <option value="Single"selected>Single</option>
+                <option value="Double">Double</option>
+                <option value="Triple">Triple</option>
+            </select>
+        </div>
+        <div id="container">
+            <label for="nights-reservation">Nights</label>
+            <input type="number" id="nights-reservation">
+        </div>
+        <div id="container">
+            <label for="nights-parking">Parking Nights</label>
+            <input type="number" id="nights-parking">
+        </div>
+        <div id="container">
+            <button id="button-calculate">Calculate</button>
+        </div>
+        <h2 id="result"></h2>  
+    </main>
+    <script src="app.js"></script>
+    
+</body>
+</html>
